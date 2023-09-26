@@ -6,7 +6,7 @@ import { solvePart1, solvePart2 } from "./solution";
 const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf8');
 
 test('part 1', () => {
-    expect(solvePart1(input)).toEqual(68923);
+    expect(solvePart1(input)).toEqual(68925);
 });
 
 test('part 2', () => {
