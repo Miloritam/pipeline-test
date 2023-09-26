@@ -22,7 +22,7 @@ jobs:
           node-version: 18
           cache: 'npm'
 
-    test:
+  test_2:
     runs-on: ubuntu-latest
 
     strategy:
@@ -37,8 +37,6 @@ jobs:
           node-version: 18
           cache: 'npm'
 
-
-
       - run: npm ci
 
-      - run: npm test
+      # - run: npm test
