@@ -6,16 +6,14 @@ orbs:
 jobs:
   test:
     executor: node/default
-    
     steps:
       - node/install-packages:
           pkg-manager: npm
           
-     - run: npm run test
+      - run: npm run test
 
-test_2:
+  test_2:
     executor: node/default
-    
     steps:
       - node/install-packages:
           pkg-manager: npm
